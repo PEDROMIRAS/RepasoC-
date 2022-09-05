@@ -441,5 +441,11 @@
     <ClCompile Include="%28P.O.O%29.cpp">
       <Filter>Archivos de encabezado</Filter>
     </ClCompile>
+    <ClCompile Include="EJ1POO.cpp">
+      <Filter>Archivos de encabezado</Filter>
+    </ClCompile>
+    <ClCompile Include="POOClasesYObjetos.cpp">
+      <Filter>Archivos de encabezado</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

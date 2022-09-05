@@ -173,6 +173,7 @@
     <ClCompile Include="EJ1Estructuras.cpp" />
     <ClCompile Include="EJ1Funciones.cpp" />
     <ClCompile Include="EJ1Pilas.cpp" />
+    <ClCompile Include="EJ1POO.cpp" />
     <ClCompile Include="EJ1Punteros.cpp" />
     <ClCompile Include="EJ2Colas.cpp" />
     <ClCompile Include="EJ2PilasMenu.cpp" />
@@ -222,6 +223,7 @@
     <ClCompile Include="PilasInsertarElementos.cpp" />
     <ClCompile Include="PilasQuitarElementos.cpp" />
     <ClCompile Include="PlantillasDeFuncion.cpp" />
+    <ClCompile Include="POOClasesYObjetos.cpp" />
     <ClCompile Include="PrincipioFunciones.cpp" />
     <ClCompile Include="pruebas.cpp" />
     <ClCompile Include="PunterosArreglosDinamicos.cpp" />
