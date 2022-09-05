@@ -1,0 +1,288 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{f7085e7d-f986-4270-8e74-801bb1051bd8}</ProjectGuid>
+    <RootNamespace>RepasoC</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="AlgoritmoBurbuja.cpp" />
+    <ClCompile Include="AlgoritmoInsercion.cpp" />
+    <ClCompile Include="AlgoritmoSeleccion.cpp" />
+    <ClCompile Include="BusquedaBinaria.cpp" />
+    <ClCompile Include="BusquedaSecuencial.cpp" />
+    <ClCompile Include="CadenaANumerosEJ8.cpp" />
+    <ClCompile Include="Caracteres1.cpp" />
+    <ClCompile Include="ColasAgregarElementos.cpp" />
+    <ClCompile Include="ColasEliminarElementos.cpp" />
+    <ClCompile Include="CompararCadenas.cpp" />
+    <ClCompile Include="CompararCadenasEJ3.cpp" />
+    <ClCompile Include="ConcatenarCadenasDeCaracteres.cpp" />
+    <ClCompile Include="ConcatenarCadenasEJ4.cpp" />
+    <ClCompile Include="ConceptoCola.cpp" />
+    <ClCompile Include="ConceptoLista.cpp" />
+    <ClCompile Include="ConceptoPila.cpp" />
+    <ClCompile Include="ContarVocalesDeUnaFrase.cpp" />
+    <ClCompile Include="Copiar Cadenas.cpp" />
+    <ClCompile Include="DeclaracionPunteros.cpp" />
+    <ClCompile Include="EJ10Funciones.cpp" />
+    <ClCompile Include="EJ10PunterosMatrizDinamicaTranspuesta.cpp" />
+    <ClCompile Include="EJ11FuncionesSumaElementosVector.cpp" />
+    <ClCompile Include="EJ11PunterosStruct.cpp" />
+    <ClCompile Include="EJ12Funciones.cpp" />
+    <ClCompile Include="EJ12PunterosStruct.cpp" />
+    <ClCompile Include="EJ14FuncionesVectorImpar.cpp" />
+    <ClCompile Include="EJ15FuncionesMatrizSimetrica.cpp" />
+    <ClCompile Include="EJ16Funciones.cpp" />
+    <ClCompile Include="EJ17FuncionesYStruct.cpp" />
+    <ClCompile Include="EJ19FuncionesRecursividad.cpp" />
+    <ClCompile Include="EJ1Colas.cpp" />
+    <ClCompile Include="EJ1Estructuras.cpp" />
+    <ClCompile Include="EJ1Funciones.cpp" />
+    <ClCompile Include="EJ1Pilas.cpp" />
+    <ClCompile Include="EJ1Punteros.cpp" />
+    <ClCompile Include="EJ2Colas.cpp" />
+    <ClCompile Include="EJ2PilasMenu.cpp" />
+    <ClCompile Include="EJ2Punteros.cpp" />
+    <ClCompile Include="EJ20FuncionesFibonazzi.cpp" />
+    <ClCompile Include="EJ21FuncionesElevarNRecursividad.cpp" />
+    <ClCompile Include="EJ2Estructuras.cpp" />
+    <ClCompile Include="EJ2Funciones.cpp" />
+    <ClCompile Include="EJ3EstructurasAnidadas.cpp" />
+    <ClCompile Include="EJ3Funciones.cpp" />
+    <ClCompile Include="EJ3PunterosPares.cpp" />
+    <ClCompile Include="EJ4EstructurasAnidadas.cpp" />
+    <ClCompile Include="EJ4Funciones.cpp" />
+    <ClCompile Include="EJ4Punteros.cpp" />
+    <ClCompile Include="EJ5EstructurasAnidadesPromedio.cpp" />
+    <ClCompile Include="EJ5Funciones.cpp" />
+    <ClCompile Include="EJ5PunterosOrdenarArrays.cpp" />
+    <ClCompile Include="EJ6Funciones.cpp" />
+    <ClCompile Include="EJ6PunterosOrdenarArreglos.cpp" />
+    <ClCompile Include="EJ7EstrucutrasAnidadas.cpp" />
+    <ClCompile Include="EJ7FuncionesIntercambiarValoresAVAriables.cpp" />
+    <ClCompile Include="EJ7PunterosContarVocales.cpp" />
+    <ClCompile Include="EJ8Estrucutras.cpp" />
+    <ClCompile Include="EJ8Funciones.cpp" />
+    <ClCompile Include="EJ8PunterosContarVocales.cpp" />
+    <ClCompile Include="EJ9Funciones.cpp" />
+    <ClCompile Include="EJ9PunterosSumaMatrizDinamica.cpp" />
+    <ClCompile Include="Estructura(STRUCT).cpp" />
+    <ClCompile Include="EstructurasAnidadas.cpp" />
+    <ClCompile Include="FuncionesCambioSignoVector.cpp" />
+    <ClCompile Include="FuncionesDevolverValoresMultiples.cpp" />
+    <ClCompile Include="FuncionesParametrosStruct.cpp" />
+    <ClCompile Include="FuncionesParametrosTipoMatriz.cpp" />
+    <ClCompile Include="FuncionesParametrosVector.cpp" />
+    <ClCompile Include="FuncionesParamtrosPorReferencia.cpp" />
+    <ClCompile Include="FuncionesRecursividad.cpp" />
+    <ClCompile Include="InvertirCadenas.cpp" />
+    <ClCompile Include="InvertirCadenasEJ5.cpp" />
+    <ClCompile Include="LongitudDeUnaCadena.cpp" />
+    <ClCompile Include="miramecagoento.cpp" />
+    <ClCompile Include="%28P.O.O%29.cpp" />
+    <ClCompile Include="PalabrasAMinusculaEJ7.cpp" />
+    <ClCompile Include="PasarAMayusculaEJ6.cpp" />
+    <ClCompile Include="PasarCadenaANumeros.cpp" />
+    <ClCompile Include="PasarPalabraAMayuscula.cpp" />
+    <ClCompile Include="PasarPalabraAMinuscula.cpp" />
+    <ClCompile Include="PilasInsertarElementos.cpp" />
+    <ClCompile Include="PilasQuitarElementos.cpp" />
+    <ClCompile Include="PlantillasDeFuncion.cpp" />
+    <ClCompile Include="PrincipioFunciones.cpp" />
+    <ClCompile Include="pruebas.cpp" />
+    <ClCompile Include="PunterosArreglosDinamicos.cpp" />
+    <ClCompile Include="PunterosEstructura.cpp" />
+    <ClCompile Include="PunterosMatrizDinamica.cpp" />
+    <ClCompile Include="PunterosTransmisionDirecciones.cpp" />
+    <ClCompile Include="PunterosTrasmisionArrays.cpp" />
+    <ClCompile Include="Punteros_ArreglosYPunteros.cpp" />
+    <ClCompile Include="SumaVectores2.cpp" />
+    <ClCompile Include="17B.cpp" />
+    <ClCompile Include="0A_Inicio.cpp" />
+    <ClCompile Include="AlmacenadoDeVectores.cpp" />
+    <ClCompile Include="ArraysUnidimensionales.cpp" />
+    <ClCompile Include="CadenasDeCaracteres.cpp" />
+    <ClCompile Include="CondicionalesEJ2.cpp" />
+    <ClCompile Include="Fibonaci.cpp" />
+    <ClCompile Include="For.cpp" />
+    <ClCompile Include="IF.cpp" />
+    <ClCompile Include="Matrices.cpp" />
+    <ClCompile Include="Matrices2.cpp" />
+    <ClCompile Include="Matrices3.cpp" />
+    <ClCompile Include="Matrices4.cpp" />
+    <ClCompile Include="MatrizCuadradaXMatrizCuadrada.cpp" />
+    <ClCompile Include="MatrizSimetrica.cpp" />
+    <ClCompile Include="MatrizTranspuesta.cpp" />
+    <ClCompile Include="MostarNrsVector.cpp" />
+    <ClCompile Include="P1.cpp" />
+    <ClCompile Include="P13.cpp" />
+    <ClCompile Include="P14B.cpp" />
+    <ClCompile Include="P15.cpp" />
+    <ClCompile Include="P16.cpp" />
+    <ClCompile Include="P17.cpp" />
+    <ClCompile Include="P18.cpp" />
+    <ClCompile Include="P2.cpp" />
+    <ClCompile Include="Do_While.cpp" />
+    <ClCompile Include="P22.cpp" />
+    <ClCompile Include="P22B.cpp" />
+    <ClCompile Include="P23.cpp" />
+    <ClCompile Include="P23B.cpp" />
+    <ClCompile Include="P24.cpp" />
+    <ClCompile Include="P25.cpp" />
+    <ClCompile Include="P25B.cpp" />
+    <ClCompile Include="P26.cpp" />
+    <ClCompile Include="P28.cpp" />
+    <ClCompile Include="P3.cpp" />
+    <ClCompile Include="P32B.cpp" />
+    <ClCompile Include="P33.cpp" />
+    <ClCompile Include="P33Bn.cpp" />
+    <ClCompile Include="P34B.cpp" />
+    <ClCompile Include="P4.cpp" />
+    <ClCompile Include="P5.cpp" />
+    <ClCompile Include="P6-1.cpp" />
+    <ClCompile Include="P6.cpp" />
+    <ClCompile Include="P8.cpp" />
+    <ClCompile Include="P16B.cpp" />
+    <ClCompile Include="SumasDeMatrices.cpp" />
+    <ClCompile Include="SumadeVectores(ARRAIDS).cpp" />
+    <ClCompile Include="While.cpp" />
+    <ClCompile Include="Swtich.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
