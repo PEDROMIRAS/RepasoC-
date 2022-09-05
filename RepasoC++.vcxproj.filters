@@ -240,16 +240,16 @@
     <ClCompile Include="EstructurasAnidadas.cpp">
       <Filter>Archivos de encabezado</Filter>
     </ClCompile>
-    <ClCompile Include="EJ1Estructuras.cpp">
+    <ClCompile Include="EstructurasEJ1.cpp">
       <Filter>Archivos de encabezado</Filter>
     </ClCompile>
-    <ClCompile Include="EJ2Estructuras.cpp">
+    <ClCompile Include="EstructurasEJ2.cpp">
       <Filter>Archivos de encabezado</Filter>
     </ClCompile>
-    <ClCompile Include="EJ3EstructurasAnidadas.cpp">
+    <ClCompile Include="EstructurasAnidadasEJ3.cpp">
       <Filter>Archivos de encabezado</Filter>
     </ClCompile>
-    <ClCompile Include="EJ4EstructurasAnidadas.cpp">
+    <ClCompile Include="EstructurasAnidadasEJ4.cpp">
       <Filter>Archivos de encabezado</Filter>
     </ClCompile>
     <ClCompile Include="EJ5EstructurasAnidadesPromedio.cpp">
@@ -267,16 +267,16 @@
     <ClCompile Include="PlantillasDeFuncion.cpp">
       <Filter>Archivos de encabezado</Filter>
     </ClCompile>
-    <ClCompile Include="EJ1Funciones.cpp">
+    <ClCompile Include="FuncionesEJ1.cpp">
       <Filter>Archivos de encabezado</Filter>
     </ClCompile>
-    <ClCompile Include="EJ2Funciones.cpp">
+    <ClCompile Include="FuncionesEJ2.cpp">
       <Filter>Archivos de encabezado</Filter>
     </ClCompile>
-    <ClCompile Include="EJ3Funciones.cpp">
+    <ClCompile Include="FuncionesEJ3.cpp">
       <Filter>Archivos de encabezado</Filter>
     </ClCompile>
-    <ClCompile Include="EJ4Funciones.cpp">
+    <ClCompile Include="FuncionesEJ4.cpp">
       <Filter>Archivos de encabezado</Filter>
     </ClCompile>
     <ClCompile Include="EJ5Funciones.cpp">
@@ -351,19 +351,19 @@
     <ClCompile Include="DeclaracionPunteros.cpp">
       <Filter>Archivos de encabezado</Filter>
     </ClCompile>
-    <ClCompile Include="EJ1Punteros.cpp">
+    <ClCompile Include="PunterosEJ1.cpp">
       <Filter>Archivos de encabezado</Filter>
     </ClCompile>
-    <ClCompile Include="EJ2Punteros.cpp">
+    <ClCompile Include="PunterosEJ2.cpp">
       <Filter>Archivos de encabezado</Filter>
     </ClCompile>
     <ClCompile Include="Punteros_ArreglosYPunteros.cpp">
       <Filter>Archivos de encabezado</Filter>
     </ClCompile>
-    <ClCompile Include="EJ3PunterosPares.cpp">
+    <ClCompile Include="PunterosParesEJ3.cpp">
       <Filter>Archivos de encabezado</Filter>
     </ClCompile>
-    <ClCompile Include="EJ4Punteros.cpp">
+    <ClCompile Include="PunterosEJ4.cpp">
       <Filter>Archivos de encabezado</Filter>
     </ClCompile>
     <ClCompile Include="PunterosArreglosDinamicos.cpp">
@@ -414,10 +414,10 @@
     <ClCompile Include="PilasQuitarElementos.cpp">
       <Filter>Archivos de encabezado</Filter>
     </ClCompile>
-    <ClCompile Include="EJ1Pilas.cpp">
+    <ClCompile Include="PilasEJ1.cpp">
       <Filter>Archivos de encabezado</Filter>
     </ClCompile>
-    <ClCompile Include="EJ2PilasMenu.cpp">
+    <ClCompile Include="PilasMenuEJ2.cpp">
       <Filter>Archivos de encabezado</Filter>
     </ClCompile>
     <ClCompile Include="ConceptoCola.cpp">
@@ -429,10 +429,10 @@
     <ClCompile Include="ColasEliminarElementos.cpp">
       <Filter>Archivos de encabezado</Filter>
     </ClCompile>
-    <ClCompile Include="EJ1Colas.cpp">
+    <ClCompile Include="ColasEJ1.cpp">
       <Filter>Archivos de encabezado</Filter>
     </ClCompile>
-    <ClCompile Include="EJ2Colas.cpp">
+    <ClCompile Include="ColasEJ2.cpp">
       <Filter>Archivos de encabezado</Filter>
     </ClCompile>
     <ClCompile Include="ConceptoLista.cpp">
@@ -441,10 +441,28 @@
     <ClCompile Include="%28P.O.O%29.cpp">
       <Filter>Archivos de encabezado</Filter>
     </ClCompile>
-    <ClCompile Include="EJ1POO.cpp">
+    <ClCompile Include="POOEJ1.cpp">
       <Filter>Archivos de encabezado</Filter>
     </ClCompile>
     <ClCompile Include="POOClasesYObjetos.cpp">
+      <Filter>Archivos de encabezado</Filter>
+    </ClCompile>
+    <ClCompile Include="POOSobrecargaConstructores.cpp">
+      <Filter>Archivos de encabezado</Filter>
+    </ClCompile>
+    <ClCompile Include="POOEJ2.cpp">
+      <Filter>Archivos de encabezado</Filter>
+    </ClCompile>
+    <ClCompile Include="POODestructorObjetos.cpp">
+      <Filter>Archivos de encabezado</Filter>
+    </ClCompile>
+    <ClCompile Include="POOGettersSetters.cpp">
+      <Filter>Archivos de encabezado</Filter>
+    </ClCompile>
+    <ClCompile Include="POOHerencia.cpp">
+      <Filter>Archivos de encabezado</Filter>
+    </ClCompile>
+    <ClCompile Include="POOEJ3.cpp">
       <Filter>Archivos de encabezado</Filter>
     </ClCompile>
   </ItemGroup>
