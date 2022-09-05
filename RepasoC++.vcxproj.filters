@@ -252,13 +252,13 @@
     <ClCompile Include="EstructurasAnidadasEJ4.cpp">
       <Filter>Archivos de encabezado</Filter>
     </ClCompile>
-    <ClCompile Include="EJ5EstructurasAnidadesPromedio.cpp">
+    <ClCompile Include="EstructurasAnidadesPromedioEJ5.cpp">
       <Filter>Archivos de encabezado</Filter>
     </ClCompile>
-    <ClCompile Include="EJ7EstrucutrasAnidadas.cpp">
+    <ClCompile Include="EstrucutrasAnidadasEJ7.cpp">
       <Filter>Archivos de encabezado</Filter>
     </ClCompile>
-    <ClCompile Include="EJ8Estrucutras.cpp">
+    <ClCompile Include="EstrucutrasEJ8.cpp">
       <Filter>Archivos de encabezado</Filter>
     </ClCompile>
     <ClCompile Include="PrincipioFunciones.cpp">
@@ -279,10 +279,10 @@
     <ClCompile Include="FuncionesEJ4.cpp">
       <Filter>Archivos de encabezado</Filter>
     </ClCompile>
-    <ClCompile Include="EJ5Funciones.cpp">
+    <ClCompile Include="FuncionesEJ5.cpp">
       <Filter>Archivos de encabezado</Filter>
     </ClCompile>
-    <ClCompile Include="EJ6Funciones.cpp">
+    <ClCompile Include="FuncionesEJ6.cpp">
       <Filter>Archivos de encabezado</Filter>
     </ClCompile>
     <ClCompile Include="FuncionesParamtrosPorReferencia.cpp">
@@ -291,61 +291,61 @@
     <ClCompile Include="FuncionesDevolverValoresMultiples.cpp">
       <Filter>Archivos de encabezado</Filter>
     </ClCompile>
-    <ClCompile Include="EJ7FuncionesIntercambiarValoresAVAriables.cpp">
+    <ClCompile Include="FuncionesIntercambiarValoresAVAriablesEJ7.cpp">
       <Filter>Archivos de encabezado</Filter>
     </ClCompile>
     <ClCompile Include="pruebas.cpp">
       <Filter>Archivos de encabezado</Filter>
     </ClCompile>
-    <ClCompile Include="EJ8Funciones.cpp">
+    <ClCompile Include="FuncionesEJ8.cpp">
       <Filter>Archivos de encabezado</Filter>
     </ClCompile>
-    <ClCompile Include="EJ9Funciones.cpp">
+    <ClCompile Include="FuncionesEJ9.cpp">
       <Filter>Archivos de encabezado</Filter>
     </ClCompile>
-    <ClCompile Include="EJ10Funciones.cpp">
+    <ClCompile Include="FuncionesEJ10.cpp">
       <Filter>Archivos de encabezado</Filter>
     </ClCompile>
     <ClCompile Include="FuncionesParametrosVector.cpp">
       <Filter>Archivos de encabezado</Filter>
     </ClCompile>
-    <ClCompile Include="EJ11FuncionesSumaElementosVector.cpp">
+    <ClCompile Include="FuncionesSumaElementosVectorEJ11.cpp">
       <Filter>Archivos de encabezado</Filter>
     </ClCompile>
-    <ClCompile Include="EJ12Funciones.cpp">
+    <ClCompile Include="FuncionesEJ12.cpp">
       <Filter>Archivos de encabezado</Filter>
     </ClCompile>
     <ClCompile Include="FuncionesCambioSignoVector.cpp">
       <Filter>Archivos de encabezado</Filter>
     </ClCompile>
-    <ClCompile Include="EJ14FuncionesVectorImpar.cpp">
+    <ClCompile Include="FuncionesVectorImparEJ14.cpp">
       <Filter>Archivos de encabezado</Filter>
     </ClCompile>
     <ClCompile Include="FuncionesParametrosTipoMatriz.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
-    <ClCompile Include="EJ15FuncionesMatrizSimetrica.cpp">
+    <ClCompile Include="FuncionesMatrizSimetricaEJ15.cpp">
       <Filter>Archivos de encabezado</Filter>
     </ClCompile>
-    <ClCompile Include="EJ16Funciones.cpp">
+    <ClCompile Include="FuncionesEJ16.cpp">
       <Filter>Archivos de encabezado</Filter>
     </ClCompile>
     <ClCompile Include="FuncionesParametrosStruct.cpp">
       <Filter>Archivos de encabezado</Filter>
     </ClCompile>
-    <ClCompile Include="EJ17FuncionesYStruct.cpp">
+    <ClCompile Include="FuncionesYStructEJ17.cpp">
       <Filter>Archivos de encabezado</Filter>
     </ClCompile>
     <ClCompile Include="FuncionesRecursividad.cpp">
       <Filter>Archivos de encabezado</Filter>
     </ClCompile>
-    <ClCompile Include="EJ19FuncionesRecursividad.cpp">
+    <ClCompile Include="FuncionesRecursividadEJ19.cpp">
       <Filter>Archivos de encabezado</Filter>
     </ClCompile>
-    <ClCompile Include="EJ20FuncionesFibonazzi.cpp">
+    <ClCompile Include="FuncionesFibonazziEJ20.cpp">
       <Filter>Archivos de encabezado</Filter>
     </ClCompile>
-    <ClCompile Include="EJ21FuncionesElevarNRecursividad.cpp">
+    <ClCompile Include="FuncionesElevarNRecursividadEJ21.cpp">
       <Filter>Archivos de encabezado</Filter>
     </ClCompile>
     <ClCompile Include="DeclaracionPunteros.cpp">
@@ -375,34 +375,34 @@
     <ClCompile Include="PunterosTrasmisionArrays.cpp">
       <Filter>Archivos de encabezado</Filter>
     </ClCompile>
-    <ClCompile Include="EJ5PunterosOrdenarArrays.cpp">
+    <ClCompile Include="PunterosOrdenarArraysEJ5.cpp">
       <Filter>Archivos de encabezado</Filter>
     </ClCompile>
-    <ClCompile Include="EJ6PunterosOrdenarArreglos.cpp">
+    <ClCompile Include="PunterosOrdenarArreglosEJ6.cpp">
       <Filter>Archivos de encabezado</Filter>
     </ClCompile>
-    <ClCompile Include="EJ7PunterosContarVocales.cpp">
+    <ClCompile Include="PunterosContarVocalesEJ7.cpp">
       <Filter>Archivos de encabezado</Filter>
     </ClCompile>
-    <ClCompile Include="EJ8PunterosContarVocales.cpp">
+    <ClCompile Include="PunterosContarVocalesEJ8.cpp">
       <Filter>Archivos de encabezado</Filter>
     </ClCompile>
     <ClCompile Include="PunterosMatrizDinamica.cpp">
       <Filter>Archivos de encabezado</Filter>
     </ClCompile>
-    <ClCompile Include="EJ9PunterosSumaMatrizDinamica.cpp">
+    <ClCompile Include="PunterosSumaMatrizDinamicaEJ9.cpp">
       <Filter>Archivos de encabezado</Filter>
     </ClCompile>
-    <ClCompile Include="EJ10PunterosMatrizDinamicaTranspuesta.cpp">
+    <ClCompile Include="PunterosMatrizDinamicaTranspuestaEJ10.cpp">
       <Filter>Archivos de encabezado</Filter>
     </ClCompile>
     <ClCompile Include="PunterosEstructura.cpp">
       <Filter>Archivos de encabezado</Filter>
     </ClCompile>
-    <ClCompile Include="EJ11PunterosStruct.cpp">
+    <ClCompile Include="PunterosStructEJ11.cpp">
       <Filter>Archivos de encabezado</Filter>
     </ClCompile>
-    <ClCompile Include="EJ12PunterosStruct.cpp">
+    <ClCompile Include="PunterosStructEJ12.cpp">
       <Filter>Archivos de encabezado</Filter>
     </ClCompile>
     <ClCompile Include="ConceptoPila.cpp">
@@ -463,6 +463,12 @@
       <Filter>Archivos de encabezado</Filter>
     </ClCompile>
     <ClCompile Include="POOEJ3.cpp">
+      <Filter>Archivos de encabezado</Filter>
+    </ClCompile>
+    <ClCompile Include="POOPoliformismo.cpp">
+      <Filter>Archivos de encabezado</Filter>
+    </ClCompile>
+    <ClCompile Include="POOEJ4.cpp">
       <Filter>Archivos de encabezado</Filter>
     </ClCompile>
   </ItemGroup>
